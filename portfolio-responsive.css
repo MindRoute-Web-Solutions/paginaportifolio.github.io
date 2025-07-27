@@ -1,0 +1,18 @@
+@media (max-width: 600px) {
+  .portfolio h1 {
+    font-size: 1.75rem;
+  }
+
+  .project-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .project-card p {
+    font-size: 0.9rem;
+  }
+
+  .project-btn {
+    font-size: 0.95rem;
+    padding: 8px 12px;
+  }
+}

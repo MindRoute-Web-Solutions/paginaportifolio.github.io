@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e293b;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.portfolio h1 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #1e293b;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+  color: #ffd700;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  color: #ddd;
+  margin-bottom: 12px;
+}
+
+.project-btn {
+  text-decoration: none;
+  padding: 10px 16px;
+  background-color: #00aaff;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.project-btn:hover {
+  background-color: #007acc;
+}
+
+.back-link {
+  margin-top: 30px;
+}
+
+.back-btn {
+  text-decoration: none;
+  color: #00aaff;
+  font-size: 1rem;
+}
